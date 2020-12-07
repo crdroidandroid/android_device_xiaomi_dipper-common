@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  },
+  {
+    "repository": "crdroidandroid/android_kernel_xiaomi_dipper",
+    "target_path": "kernel/xiaomi/dipper"
+  }
+]
