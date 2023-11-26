@@ -6,5 +6,9 @@
   {
     "repository": "crdroidandroid/android_kernel_xiaomi_dipper",
     "target_path": "kernel/xiaomi/dipper"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_xiaomi_dipper-common",
+    "target_path": "vendor/xiaomi/dipper-common"
   }
 ]
