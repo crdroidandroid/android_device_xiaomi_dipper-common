@@ -1,7 +1,8 @@
 [
   {
     "repository": "LineageOS/android_hardware_xiaomi",
-    "target_path": "hardware/xiaomi"
+    "target_path": "hardware/xiaomi",
+    "branch": "lineage-21"
   },
   {
     "repository": "crdroidandroid/android_kernel_xiaomi_dipper",
