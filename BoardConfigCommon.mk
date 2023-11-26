@@ -8,7 +8,7 @@ BOARD_VENDOR := xiaomi
 
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
-COMMON_PATH := device/xiaomi/sdm845-common
+COMMON_PATH := device/xiaomi/dipper-common
 
 # Architecture
 TARGET_ARCH := arm64
@@ -37,7 +37,7 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CONFIG := vendor/xiaomi/mi845_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
+TARGET_KERNEL_SOURCE := kernel/xiaomi/dipper
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm845
@@ -141,4 +141,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
-include vendor/xiaomi/sdm845-common/BoardConfigVendor.mk
+include vendor/xiaomi/dipper-common/BoardConfigVendor.mk
